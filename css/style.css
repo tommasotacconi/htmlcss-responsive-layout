@@ -245,4 +245,8 @@ iframe {
     width: 66%;
 }
 
+#presentation p {
+    line-height: 25px;
+}
+
 /* in footer */
