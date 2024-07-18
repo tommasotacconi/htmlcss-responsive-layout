@@ -213,7 +213,7 @@ iframe {
     text-align: center;
     line-height: 32px;
     border-radius: 20px;
-    filter: drop-shadow(0 0 10px #d4d4d4ee);
+    filter: drop-shadow(0 7px 7px #a0a0a0ee);
     cursor: pointer;
 }
 
