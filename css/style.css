@@ -12,7 +12,6 @@ body {
 
 header {
     font-family: 'Nerko One', cursive;
-    color: #e2821b;
     font-weight: 600;
     font-size: 1rem;
     text-align: center;
@@ -62,7 +61,10 @@ ul {
     li:last-child a {
         margin-right: 0;
     }
-    
+}
+
+iframe {
+    width: 100%;
 }
 
 /* Utilities */
@@ -73,11 +75,41 @@ ul {
     border: 1px solid black;
 }
 
+.color-booleano {
+    color: #e2821b;
+}
+
+/* organisation per section */
 /* in receipt-introduction */
 .receipt-category,
 .title,
 .rate {
     padding: var(--pd-sm) ;
+}
+
+.receipt-category {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.title h2{
+    font-weight: 800;
+    color: rgb(56, 5, 104);
+}
+
+#receipt-introduction span {
+    position: relative;
+    top: 0;
+    right: 5px
+}
+
+#receipt-introduction a {
+    color: white;
+    background-color: #e2821b;
+    padding: 8px 15px;
+    border-radius: 18px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 /* in receipt-info */
@@ -89,3 +121,11 @@ ul {
     min-height: var(--mh-xxl);
     padding: var(--pd-lg);
 }
+
+/* in social */
+
+
+/* in presentation */
+
+
+/* in footer */
