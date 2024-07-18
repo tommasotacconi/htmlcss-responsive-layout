@@ -72,7 +72,6 @@ iframe {
 .container {
     min-height: 50px;
     margin: 0 20px;
-    border: 1px solid #000;
 }
 
 .clr-booleano {
@@ -209,11 +208,11 @@ iframe {
 #social li {
     background-color: #fff;
     display: block;
-    width: 32px;
-    height: 32px;
+    width: 60px;
+    height: 45px;
     text-align: center;
-    line-height: 32px;
-    border-radius: 20px;
+    line-height: 45px;
+    border-radius: 25px;
     filter: drop-shadow(0 7px 7px #a0a0a0ee);
     cursor: pointer;
 }
