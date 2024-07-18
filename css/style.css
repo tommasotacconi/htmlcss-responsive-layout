@@ -54,8 +54,6 @@ ul {
     
     a {
         text-decoration: none;
-        color: white;
-        margin-right: 5px;
     }
 
     li:last-child a {
@@ -103,7 +101,7 @@ iframe {
     right: 5px
 }
 
-#receipt-introduction a {
+#receipt-introduction #btn-rate {
     color: white;
     background-color: #e2821b;
     padding: 8px 15px;
@@ -192,7 +190,40 @@ iframe {
 }
 
 /* in social */
+#social ul {
+    margin: 0;
+}
 
+#social li {
+    background-color: white;
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px #00000096);
+}
+
+.fa-facebook {
+    color: #5050ff;
+}
+
+.fa-twitter{
+    color: #00d4fe;
+}
+
+.fa-instagram {
+    color: #ff5500;
+}
+
+.fa-pinterest {
+    color: #dd0000;
+}
+
+.fa-youtube {
+    color: red;
+}
 
 /* in presentation */
 
