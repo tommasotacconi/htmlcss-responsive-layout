@@ -26,7 +26,7 @@ section {
 
 footer {
     padding: 30px;
-    color: white;
+    color: #fff;
 }
 
 /* nav {
@@ -70,15 +70,16 @@ iframe {
 .container {
     min-height: 50px;
     margin: 0 20px;
-    border: 1px solid black;
+    border: 1px solid #000;
 }
 
-.color-booleano {
+.clr-booleano {
     color: #e2821b;
 }
 
 :root {
     --clr-booleano: #e2821b;
+    --clr-viola: #8d70a9;
 }
 
 /* organisation per section */
@@ -96,7 +97,7 @@ iframe {
 
 .title h2{
     font-weight: 800;
-    color: rgb(56, 5, 104);
+    color: #380568;
 }
 
 #receipt-introduction span {
@@ -106,7 +107,7 @@ iframe {
 }
 
 #receipt-introduction #btn-rate {
-    color: white;
+    color: #fff;
     background-color: var(--clr-booleano);
     padding: 8px 15px;
     border-radius: 18px;
@@ -132,8 +133,8 @@ iframe {
 
 .kcal {
     display: inline-block;
-    color: white;
-    background-color: #8d70a9;
+    color: #fff;
+    background-color: var(--clr-viola);
     padding: 4px 8px;
     border-radius: 5px;
 }
@@ -199,7 +200,7 @@ iframe {
 }
 
 #social li {
-    background-color: white;
+    background-color: #fff;
     display: block;
     width: 32px;
     height: 32px;
@@ -250,3 +251,18 @@ iframe {
 }
 
 /* in footer */
+footer {
+    background-color: var(--clr-viola);
+}
+
+.company-info {
+    line-height: 20px;
+}
+
+footer ul {
+    text-decoration: underline;
+
+    a {
+        color: #fff;
+    }
+}
