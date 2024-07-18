@@ -122,6 +122,86 @@ iframe {
     padding: var(--pd-lg);
 }
 
+.basic-info{
+    background-color: #eaeaea;
+    padding: 20px 15px;
+    position: relative;
+}
+
+.kcal {
+    display: inline-block;
+    color: white;
+    background-color: #8d70a9;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+#apri-info {
+    position: absolute;
+    top: calc(67.2px / 2);
+    right: 15px;
+    translate: 0 -50%;
+    font-weight: 700;
+}
+
+.plan-details ul {
+    margin-left: 12px;
+    /* list-style-position: outside; */
+
+    li {
+        margin-bottom: 15px;
+    }
+}
+
+.plan-details ul.main-aspects-list {
+    margin-top: 60px;
+}
+
+/* to insert font awesome as pseudo elements */
+.icon::marker {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #e2821b;
+}
+
+.detailed-info ul li:first-child::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f517' ' ';
+}
+
+.detailed-info ul li:nth-child(2)::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f017' ' ';
+}
+
+.detailed-info ul li:nth-child(3)::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f200' ' ';
+}
+
+.detailed-info ul li:nth-child(4)::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f153' ' ';
+}
+
+.detailed-info ul li:last-child::marker {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f08d' ' ';
+}
+
+.detailed-info ul {
+    list-style-position: inside;
+    line-height: 40px;
+}
+
 /* in social */
 
 

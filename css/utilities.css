@@ -57,9 +57,9 @@
 }
 
 .separator-div {
-    border: 1px solid slategrey;
-    width: 20%;
-    margin: 40px 0;
+    border: 1px solid #d3d9df;
+    width: 100%;
+    margin: 20px 0;
 }
 
 /* type of button */
