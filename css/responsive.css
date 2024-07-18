@@ -13,7 +13,7 @@
   }
 
   main {
-    padding: 30px;
+    padding: 40px;
   }
 
   /* in receipt-info  */
@@ -41,5 +41,68 @@
   #presentation figure {
     float: left;
     margin-right: 20px ;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #receipt-introduction h2 {
+    font-size: 2.5rem;
+  }
+
+  .detailed-info ul{
+    display: block;
+  }
+
+  #receipt-info .container {
+    display: flex;
+
+    .subsection-video {
+      flex-basis: 60%;
+    }
+
+    .subsection-info {
+      flex-grow: 1;
+    }
+
+    iframe {
+      height: 100%;
+    }
+  }
+
+  /* in social */
+  #social li:first-child a::after {
+    content: ' FACEBOOK';
+    font-weight: 600;
+  }
+
+  #social li:nth-child(2) a::after {
+    content: ' TWITTER';
+    font-weight: 600;
+  }
+
+  #social li:nth-child(3) a::after {
+    content: ' INSTAGRAM';
+    font-weight: 600;
+  }
+  #social li:nth-child(4) a::after {
+    content: ' PINTEREST';
+    font-weight: 600;
+  }
+
+  #social li:last-child a::after {
+    content: ' YOUTUBE';
+    font-weight: 600;
+  }
+
+  /* in footer */
+  footer .container {
+    max-width: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .company-info {
+      text-align: left;
+    }
   }
 }

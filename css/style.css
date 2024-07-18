@@ -22,6 +22,10 @@ header {
     padding: 0 20px;
 }
 
+main {
+    padding: 20px;
+}
+
 section {
     min-height: var(--mh-sm);
     padding: 20px 0;
@@ -72,7 +76,8 @@ iframe {
 /* generics */
 .container {
     min-height: 50px;
-    margin: 0 20px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .clr-booleano {
@@ -124,7 +129,7 @@ iframe {
 
 /* in receipt-info */
 .subsection-video {
-    min-height: var(--mh-lg);
+    min-height: var(--mh-xl);
 }
 
 .subsection-info {
@@ -240,6 +245,7 @@ iframe {
 /* in banner */
 .banner {
     display: none;
+    margin: 60px 0;
 }
 
 .banner img {
@@ -272,6 +278,7 @@ footer {
 
 .company-info {
     line-height: 20px;
+    margin-right: 40px;
 }
 
 footer ul {
