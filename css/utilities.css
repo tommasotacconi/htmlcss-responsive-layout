@@ -175,8 +175,13 @@
 }
 
 .gap-sm {
+    gap: 15px;
+}
+
+.gap-m {
     gap: 30px;
 }
+
 /*  */
 
 /* hover effect */
