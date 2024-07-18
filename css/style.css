@@ -128,7 +128,6 @@ iframe {
 }
 
 .subsection-info {
-    min-height: var(--mh-xxl);
     padding: var(--pd-lg);
 }
 
@@ -238,6 +237,15 @@ iframe {
     color: red;
 }
 
+/* in banner */
+.banner {
+    display: none;
+}
+
+.banner img {
+    width: 100%;
+}
+
 /* in presentation */
 #presentation h3 {
     font-weight: 500;
@@ -249,7 +257,7 @@ iframe {
 }
 
 #presentation figure {
-    margin: 0 auto;
+    margin: 0 auto 20px;
     width: 66%;
 }
 

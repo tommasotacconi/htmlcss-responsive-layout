@@ -2,4 +2,44 @@
   header {
     text-align: left;
   }
+
+  /* in receipt-introduction */
+  #receipt-introduction h2 {
+    font-size: 1.9rem;
+  }
+  
+  #receipt-introduction h2::after {
+    content: ' (dolce tradizionale)';
+  }
+
+  main {
+    padding: 30px;
+  }
+
+  /* in receipt-info  */
+  .detailed-info ul{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+
+    li {
+      flex-basis: calc(100% / 3);
+    };
+  }
+  
+  /* in social */
+  #social li{
+    width: 16%
+  }
+
+  /* in banner */
+  .banner {
+    display: block;
+  }
+
+  /* in presentation */
+  #presentation figure {
+    float: left;
+    margin-right: 20px ;
+  }
 }
