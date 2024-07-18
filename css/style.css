@@ -77,6 +77,10 @@ iframe {
     color: #e2821b;
 }
 
+:root {
+    --clr-booleano: #e2821b;
+}
+
 /* organisation per section */
 /* in receipt-introduction */
 .receipt-category,
@@ -103,7 +107,7 @@ iframe {
 
 #receipt-introduction #btn-rate {
     color: white;
-    background-color: #e2821b;
+    background-color: var(--clr-booleano);
     padding: 8px 15px;
     border-radius: 18px;
     font-weight: 600;
@@ -150,7 +154,7 @@ iframe {
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    color: #e2821b;
+    color: var(--clr-booleano);
 }
 
 .detailed-info ul li:first-child::marker {
@@ -227,6 +231,18 @@ iframe {
 }
 
 /* in presentation */
+#presentation h3 {
+    font-weight: 500;
+}
 
+#presentation .separator-div {
+    width: 15%;
+    border-color: var(--clr-booleano);
+}
+
+#presentation figure {
+    margin: 0 auto;
+    width: 66%;
+}
 
 /* in footer */
