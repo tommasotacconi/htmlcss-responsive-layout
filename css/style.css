@@ -19,6 +19,7 @@ header {
     height: 50px;
     line-height: 50px;
     background-color: #fff;
+    padding: 0 20px;
 }
 
 section {
@@ -93,7 +94,7 @@ iframe {
 .receipt-category,
 .title,
 .rate {
-    padding: var(--pd-sm) ;
+    padding: var(--pd-sm) 0;
 }
 
 .receipt-category {
