@@ -1,9 +1,11 @@
 /* Utilities */
 :root {
+    --pd-sm: 10px;
+    --pd-m: 15px;
     --nav-pd: 5px;
-    --sec-pd-sm: 250px;
+    --sec-pd-sm: 25px;
     --sec-pd-lg: 40px;
-    --sec-pd-xl: 50;
+    --sec-pd-xl: 50px;
     --sec-pd-xxl: 100px;
     --sec-pd-xxxl: 130px;
     --pd-sm: 10px;
@@ -175,75 +177,75 @@
     border-bottom: 1.6px solid black;
 }
 
-.bdColor-bianco {
+.bdcolor-bianco {
     background-color: #fff;
 }
 
-.bdColor-bianco-fumo {
+.bdcolor-bianco-fumo {
     background-color: whitesmoke;
 }
 
-.bdColor-cielo {
+.bdcolor-cielo {
     background-color: #a4c8f7;
 }
 
-.bdColor-blu-cadetto {
+.bdcolor-blu-cadetto {
     background-color: cadetblue;
 }
 
-.bdColor-blu-tenue {
+.bdcolor-blu-tenue {
     background-color: cornflowerblue ;
 }
 
-.bdColor-cioccolato {
+.bdcolor-cioccolato {
     background-color: chocolate
 }
 
-.bdColor-black {
+.bdcolor-black {
     background-color: black;
 }
 
-.bdColor-blu-ardesia {
+.bdcolor-blu-ardesia {
     background-color: slateblue;
 }
 
-.bdColor-argento{
+.bdcolor-argento{
     background-color: silver;
 }
 
-.bdColor-pesca {
+.bdcolor-pesca {
     background-color: peachpuff;
 }
 
-.bdColor-greenyellow {
+.bdcolor-greenyellow {
     background-color: greenyellow;
 }
 
-.bdColor-red {
+.bdcolor-red {
     background-color: red;
 }
 
-.bdColor-dark-red {
+.bdcolor-dark-red {
     background-color: #d30000;
 }
 
-.bdColor-red-brown {
+.bdcolor-red-brown {
     background-color: #73231f;
 }
 
-.bdColor-marrone {
+.bdcolor-marrone {
     background-color: brown;
 }
 
-.bdColor-grigio-chiaro {
+.bdcolor-grigio-chiaro {
     background-color: #efefef;
 }
 
-.bdColor-deep-blue { 
+.bdcolor-deep-blue { 
     background-color: darkblue
 }
 
-.bdColor-giallo {
+.bdcolor-giallo {
     background-color: #fff200;
 }
 

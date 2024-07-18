@@ -20,6 +20,11 @@ header {
     line-height: 50px;
 }
 
+section {
+    min-height: var(--mh-sm);
+    padding: 20px 0;
+}
+
 footer {
     padding: 30px;
     color: white;
@@ -60,6 +65,16 @@ footer {
 } */
 
 /* Utilities */
+/* generics */
 .container {
-    min-height: 100px;
+    min-height: 50px;
+    margin: 0 20px;
+    border: 1px solid black;
+}
+
+/* in receipt-introduction */
+.receipt-category,
+.title,
+.rate {
+    padding: var(--pd-sm) ;
 }
