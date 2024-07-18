@@ -7,18 +7,17 @@
 
 /* Generics */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
 header {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-    width: 100%; 
-    color: white;
+    font-family: 'Nerko One', cursive;
+    color: #e2821b;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1rem;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
 }
 
 footer {
@@ -61,3 +60,6 @@ footer {
 } */
 
 /* Utilities */
+.container {
+    min-height: 100px;
+}
